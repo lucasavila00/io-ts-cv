@@ -1,6 +1,6 @@
 import * as t from "io-ts";
 import { withMessage } from "io-ts-types/lib/withMessage";
-import ValidatorJS from "validator";
+import type ValidatorJS from "validator";
 import isHashValidator from "validator/lib/isHash";
 import { nameFromCtx } from "../utils/ctx";
 

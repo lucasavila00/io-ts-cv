@@ -1,7 +1,7 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
 import { IsISO8601 } from "../../string/IsISO8601";
-import { getMessages as getErrorMessages } from "../utils/validation-messages";
+import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsISO8601", () => {
   it("works with no config", () => {

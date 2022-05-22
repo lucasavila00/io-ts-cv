@@ -1,7 +1,7 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
 import { IsAlpha } from "../../string/IsAlpha";
-import { getMessages as getErrorMessages } from "../utils/validation-messages";
+import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsAlpha", () => {
   it("works with no locale", () => {

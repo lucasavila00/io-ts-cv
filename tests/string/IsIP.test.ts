@@ -1,7 +1,7 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
 import { IsIP } from "../../string/IsIP";
-import { getMessages as getErrorMessages } from "../utils/validation-messages";
+import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsIP", () => {
   it("each version is a different brand", () => {

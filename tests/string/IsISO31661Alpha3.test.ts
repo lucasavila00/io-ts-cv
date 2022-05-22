@@ -1,7 +1,7 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
 import { IsISO31661Alpha3 } from "../../string/IsISO31661Alpha3";
-import { getMessages as getErrorMessages } from "../utils/validation-messages";
+import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsISO31661Alpha3", () => {
   it("works unwrapped", () => {

@@ -1,7 +1,7 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
 import { MaxLength } from "../../string/MaxLength";
-import { getMessages } from "../utils/validation-messages";
+import { getErrorMessages } from "../utils/validation-messages";
 
 describe("MaxLength", () => {
   it("each length is a different brand", () => {
@@ -23,7 +23,7 @@ describe("MaxLength", () => {
 
     expect(E.isRight(maxLength3.decode("123"))).toBe(true);
     expect(E.isRight(maxLength3.decode("12"))).toBe(true);
-    expect(getMessages(maxLength3.decode("1234"))).toMatchInlineSnapshot(
+    expect(getErrorMessages(maxLength3.decode("1234"))).toMatchInlineSnapshot(
       `"it must be shorter than or equal to 3 characters"`
     );
   });
@@ -33,7 +33,9 @@ describe("MaxLength", () => {
       a: MaxLength(3),
     });
 
-    expect(getMessages(theType.decode({ a: "1234" }))).toMatchInlineSnapshot(
+    expect(
+      getErrorMessages(theType.decode({ a: "1234" }))
+    ).toMatchInlineSnapshot(
       `"a must be shorter than or equal to 3 characters"`
     );
 
@@ -42,7 +44,7 @@ describe("MaxLength", () => {
     });
 
     expect(
-      getMessages(wrappedMore.decode({ b: { a: "1234" } }))
+      getErrorMessages(wrappedMore.decode({ b: { a: "1234" } }))
     ).toMatchInlineSnapshot(
       `"b.a must be shorter than or equal to 3 characters"`
     );

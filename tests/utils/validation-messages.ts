@@ -1,7 +1,7 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
 
-export const getMessages = (it: t.Validation<any>): string => {
+export const getErrorMessages = (it: t.Validation<any>): string => {
   if (E.isLeft(it)) {
     return it.left
       .map((e) => {
