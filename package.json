@@ -10,13 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fp-ts": "^2.12.1",
     "io-ts": "^2.2.16",
     "io-ts-types": "^0.5.16",
     "libphonenumber-js": "^1.10.4",
     "validator": "^13.7.0"
   },
   "devDependencies": {
+    "fp-ts": "^2.12.1",
     "@types/jest": "^27.5.1",
     "@types/validator": "^13.7.2",
     "jest": "^28.1.0",
