@@ -4,7 +4,7 @@
   - [ ] variadic expansion of the brand name (isIn, arrayContains)
     - [ ] union of literals??
 
-# explain alternative
+# alternatives not implemented
 
 - [ ] Validate
 - [ ] ValidateBy
@@ -19,6 +19,7 @@
 
 # moved
 
+- [ ] date/\* => submodules
 - [ ] common/isEmpty => string module
 - [ ] common/isNotEmpty => string module
 - [ ] common/isLatLng => string module
