@@ -1,14 +1,8 @@
 # todo
 
 - [ ] remove some of the type-unsafety/deprecations
-
   - [ ] variadic expansion of the brand name (isIn, arrayContains)
-
-- [ ] common/isEmpty => string module
-- [ ] common/isNotEmpty => string module
-- [ ] common/isLongitude => string module
-- [ ] common/isLatitude => string module
-- [ ] common/isLatLng => string module
+    - [ ] union of literals??
 
 # explain alternative
 
@@ -27,6 +21,4 @@
 
 - [ ] common/isEmpty => string module
 - [ ] common/isNotEmpty => string module
-- [ ] common/isLongitude => string module
-- [ ] common/isLatitude => string module
 - [ ] common/isLatLng => string module
