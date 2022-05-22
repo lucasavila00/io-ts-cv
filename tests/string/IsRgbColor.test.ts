@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsRgbColor } from "../../string/IsRgbColor";
+import { IsRgbColor } from "../../src/string/IsRgbColor";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsRgbColor", () => {

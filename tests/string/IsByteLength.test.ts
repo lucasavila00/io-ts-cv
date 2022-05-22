@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsByteLength } from "../../string/IsByteLength";
+import { IsByteLength } from "../../src/string/IsByteLength";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsByteLength", () => {

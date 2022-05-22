@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsCreditCard } from "../../string/IsCreditCard";
+import { IsCreditCard } from "../../src/string/IsCreditCard";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsCreditCard", () => {

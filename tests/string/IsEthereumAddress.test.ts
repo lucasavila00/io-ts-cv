@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsEthereumAddress } from "../../string/IsEthereumAddress";
+import { IsEthereumAddress } from "../../src/string/IsEthereumAddress";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsEthereumAddress", () => {

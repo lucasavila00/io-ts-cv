@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsSemVer } from "../../string/IsSemVer";
+import { IsSemVer } from "../../src/string/IsSemVer";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsSemVer", () => {

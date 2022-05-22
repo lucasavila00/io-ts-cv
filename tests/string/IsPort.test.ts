@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsPort } from "../../string/IsPort";
+import { IsPort } from "../../src/string/IsPort";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsPort", () => {

@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { Length } from "../../string/Length";
+import { Length } from "../../src/string/Length";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("Length", () => {

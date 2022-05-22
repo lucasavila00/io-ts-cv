@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { MinLength } from "../../string/MinLength";
+import { MinLength } from "../../src/string/MinLength";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("MinLength", () => {

@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsMultibyte } from "../../string/IsMultibyte";
+import { IsMultibyte } from "../../src/string/IsMultibyte";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsMultibyte", () => {

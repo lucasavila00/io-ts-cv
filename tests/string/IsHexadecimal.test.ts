@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsHexadecimal } from "../../string/IsHexadecimal";
+import { IsHexadecimal } from "../../src/string/IsHexadecimal";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsHexadecimal", () => {

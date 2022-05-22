@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsBase64 } from "../../string/IsBase64";
+import { IsBase64 } from "../../src/string/IsBase64";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsBase64", () => {

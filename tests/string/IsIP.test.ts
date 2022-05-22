@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsIP } from "../../string/IsIP";
+import { IsIP } from "../../src/string/IsIP";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsIP", () => {

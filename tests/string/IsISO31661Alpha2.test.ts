@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsISO31661Alpha2 } from "../../string/IsISO31661Alpha2";
+import { IsISO31661Alpha2 } from "../../src/string/IsISO31661Alpha2";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsISO31661Alpha2", () => {

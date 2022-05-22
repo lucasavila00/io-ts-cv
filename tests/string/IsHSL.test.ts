@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsHSL } from "../../string/IsHSL";
+import { IsHSL } from "../../src/string/IsHSL";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsHSL", () => {

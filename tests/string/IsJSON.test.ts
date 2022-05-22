@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsJSON } from "../../string/IsJSON";
+import { IsJSON } from "../../src/string/IsJSON";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsJSON", () => {

@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsMilitaryTime } from "../../string/IsMilitaryTime";
+import { IsMilitaryTime } from "../../src/string/IsMilitaryTime";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsMilitaryTime", () => {

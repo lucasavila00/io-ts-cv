@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsDecimal } from "../../string/IsDecimal";
+import { IsDecimal } from "../../src/string/IsDecimal";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsDecimal", () => {

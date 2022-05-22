@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsFQDN } from "../../string/IsFQDN";
+import { IsFQDN } from "../../src/string/IsFQDN";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsFQDN", () => {

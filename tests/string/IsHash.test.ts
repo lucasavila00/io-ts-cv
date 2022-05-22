@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsHash } from "../../string/IsHash";
+import { IsHash } from "../../src/string/IsHash";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsHash", () => {

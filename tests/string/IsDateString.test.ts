@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsDateString } from "../../string/IsDateString";
+import { IsDateString } from "../../src/string/IsDateString";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsDateString", () => {

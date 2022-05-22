@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsMagnetURI } from "../../string/IsMagnetURI";
+import { IsMagnetURI } from "../../src/string/IsMagnetURI";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsMagnetURI", () => {

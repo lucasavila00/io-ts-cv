@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsVariableWidth } from "../../string/IsVariableWidth";
+import { IsVariableWidth } from "../../src/string/IsVariableWidth";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsVariableWidth", () => {

@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsIdentityCard } from "../../string/IsIdentityCard";
+import { IsIdentityCard } from "../../src/string/IsIdentityCard";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsIdentityCard", () => {

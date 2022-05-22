@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsAscii } from "../../string/IsAscii";
+import { IsAscii } from "../../src/string/IsAscii";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsAscii", () => {

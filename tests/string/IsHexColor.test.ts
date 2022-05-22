@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsHexColor } from "../../string/IsHexColor";
+import { IsHexColor } from "../../src/string/IsHexColor";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsHexColor", () => {

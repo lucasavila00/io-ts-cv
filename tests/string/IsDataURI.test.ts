@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsDataURI } from "../../string/IsDataURI";
+import { IsDataURI } from "../../src/string/IsDataURI";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsDataURI", () => {

@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsFirebasePushId } from "../../string/IsFirebasePushId";
+import { IsFirebasePushId } from "../../src/string/IsFirebasePushId";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsFirebasePushId", () => {

@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsBtcAddress } from "../../string/IsBtcAddress";
+import { IsBtcAddress } from "../../src/string/IsBtcAddress";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsBtcAddress", () => {

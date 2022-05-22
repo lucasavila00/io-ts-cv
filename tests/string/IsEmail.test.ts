@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsEmail } from "../../string/IsEmail";
+import { IsEmail } from "../../src/string/IsEmail";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsEmail", () => {

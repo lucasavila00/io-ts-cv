@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsBIC } from "../../string/IsBIC";
+import { IsBIC } from "../../src/string/IsBIC";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsBIC", () => {

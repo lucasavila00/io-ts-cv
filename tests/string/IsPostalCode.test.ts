@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsPostalCode } from "../../string/IsPostalCode";
+import { IsPostalCode } from "../../src/string/IsPostalCode";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsPostalCode", () => {

@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsUrl } from "../../string/IsUrl";
+import { IsUrl } from "../../src/string/IsUrl";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsUrl", () => {

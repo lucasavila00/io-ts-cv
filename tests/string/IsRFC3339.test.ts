@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsRFC3339 } from "../../string/IsRFC3339";
+import { IsRFC3339 } from "../../src/string/IsRFC3339";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsRFC3339", () => {

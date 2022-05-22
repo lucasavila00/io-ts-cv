@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsJWT } from "../../string/IsJWT";
+import { IsJWT } from "../../src/string/IsJWT";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsJWT", () => {

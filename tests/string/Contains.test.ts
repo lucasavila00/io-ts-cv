@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { Contains } from "../../string/Contains";
+import { Contains } from "../../src/string/Contains";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("Contains", () => {

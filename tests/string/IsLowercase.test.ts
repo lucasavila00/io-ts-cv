@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsLowercase } from "../../string/IsLowercase";
+import { IsLowercase } from "../../src/string/IsLowercase";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsLowercase", () => {

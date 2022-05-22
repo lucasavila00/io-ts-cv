@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsFullWidth } from "../../string/IsFullWidth";
+import { IsFullWidth } from "../../src/string/IsFullWidth";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsFullWidth", () => {

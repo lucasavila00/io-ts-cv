@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsMacAddress } from "../../string/IsMacAddress";
+import { IsMacAddress } from "../../src/string/IsMacAddress";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsMacAddress", () => {

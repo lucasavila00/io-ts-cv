@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { NotContains } from "../../string/NotContains";
+import { NotContains } from "../../src/string/NotContains";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("NotContains", () => {

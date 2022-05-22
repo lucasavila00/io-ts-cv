@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsCurrency } from "../../string/IsCurrency";
+import { IsCurrency } from "../../src/string/IsCurrency";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsCurrency", () => {

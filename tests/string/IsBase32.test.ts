@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsBase32 } from "../../string/IsBase32";
+import { IsBase32 } from "../../src/string/IsBase32";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsBase32", () => {

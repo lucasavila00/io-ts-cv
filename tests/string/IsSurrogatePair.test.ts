@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsSurrogatePair } from "../../string/IsSurrogatePair";
+import { IsSurrogatePair } from "../../src/string/IsSurrogatePair";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsSurrogatePair", () => {

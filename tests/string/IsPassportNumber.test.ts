@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsPassportNumber } from "../../string/IsPassportNumber";
+import { IsPassportNumber } from "../../src/string/IsPassportNumber";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsPassportNumber", () => {

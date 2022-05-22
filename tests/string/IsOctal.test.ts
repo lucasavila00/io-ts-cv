@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsOctal } from "../../string/IsOctal";
+import { IsOctal } from "../../src/string/IsOctal";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsOctal", () => {

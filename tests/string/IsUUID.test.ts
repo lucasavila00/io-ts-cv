@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsUUID } from "../../string/IsUUID";
+import { IsUUID } from "../../src/string/IsUUID";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsUUID", () => {

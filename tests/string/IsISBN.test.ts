@@ -1,6 +1,6 @@
 import * as E from "fp-ts/lib/Either";
 import * as t from "io-ts";
-import { IsISBN } from "../../string/IsISBN";
+import { IsISBN } from "../../src/string/IsISBN";
 import { getErrorMessages } from "../utils/validation-messages";
 
 describe("IsISBN", () => {
