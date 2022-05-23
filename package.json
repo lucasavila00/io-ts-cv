@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "prettier:check": "prettier -c .",
-    "prettier:update": "prettier -w ."
+    "prettier:update": "prettier -w .",
+    "ts:check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",

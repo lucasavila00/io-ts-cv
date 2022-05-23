@@ -15,4 +15,5 @@ jobs:
           cache-dependency-path: package-lock.json
       - run: npm install
       - run: npm run prettier:check
+      - run: npm run ts:check
       - run: npm run test
