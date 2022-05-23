@@ -9,7 +9,7 @@
     "test": "jest",
     "prettier:check": "prettier -c .",
     "prettier:update": "prettier -w .",
-    "ts:check": "tsc --noEmit .",
+    "ts:check": "tsc --noEmit",
     "build": "rm -rf dist && tsc -p ./tsconfig.build.json && tsc -p ./tsconfig.build-es6.json && ts-node scripts/build"
   },
   "keywords": [],
