@@ -1,6 +1,6 @@
 # io-ts-cv
 
-One-to-one reimplementation of [class-validator's](https://github.com/typestack/class-validator) validators in fp-ts/io-ts ecosystem.
+One-to-one reimplementation of [class-validator's](https://github.com/typestack/class-validator) validators in io-ts ecosystem.
 
 # Codecs
 
@@ -119,7 +119,6 @@ For example, an IsEmail codec:
 ```ts
 import * as t from "io-ts";
 import { withMessage } from "io-ts-types/lib/withMessage";
-import type ValidatorJS from "validator";
 import { nameFromCtx } from "io-ts-cv/utils/ctx";
 import isEmailValidator from "validator/lib/isEmail";
 
