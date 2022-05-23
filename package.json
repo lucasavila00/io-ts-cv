@@ -2,14 +2,15 @@
   "name": "io-ts-cv",
   "version": "1.0.0",
   "description": "One-to-one reimplementation of class-validator's validators in io-ts ecosystem.",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "module": "es6/index.js",
+  "typings": "lib/index.d.ts",
   "scripts": {
     "test": "jest",
     "prettier:check": "prettier -c .",
     "prettier:update": "prettier -w .",
-    "ts:check": "tsc --noEmit",
-    "ts:build": "tsc"
+    "ts:check": "tsc --noEmit .",
+    "build": "rm -rf dist && tsc -p ./tsconfig.build.json && tsc -p ./tsconfig.build-es6.json && ts-node scripts/build"
   },
   "keywords": [],
   "author": "",
@@ -21,12 +22,16 @@
     "validator": "^13.7.0"
   },
   "devDependencies": {
-    "prettier": "^2.6.2",
-    "fp-ts": "^2.12.1",
+    "@types/glob": "^7.2.0",
     "@types/jest": "^27.5.1",
+    "@types/node": "^13.11.0",
     "@types/validator": "^13.7.2",
+    "fp-ts": "^2.12.1",
+    "glob": "^8.0.3",
     "jest": "^28.1.0",
+    "prettier": "^2.6.2",
     "ts-jest": "^28.0.2",
+    "ts-node": "^10.8.0",
     "typescript": "^4.6.4"
   }
 }
