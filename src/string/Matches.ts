@@ -12,6 +12,7 @@ const matches = (
 interface MatchesBrand {
   readonly Matches: unique symbol;
 }
+
 /**
  * Checks if string matches the pattern. Either matches('foo', /foo/i)
  * @deprecated Not type safe, build your own brand with the configured validator to achieve type safety.
