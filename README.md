@@ -2,6 +2,12 @@
 
 One-to-one reimplementation of [class-validator's](https://github.com/typestack/class-validator) validators in io-ts ecosystem.
 
+Install from NPM:
+
+```
+npm i io-ts-cv
+```
+
 # Codecs
 
 | Codec                                          | Description                                                                                                                                                                                           |
