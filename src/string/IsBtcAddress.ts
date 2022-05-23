@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isBtcAddressValidator from "validator/lib/isBtcAddress";
 
-interface IsBtcAddressBrand {
+export interface IsBtcAddressBrand {
   readonly IsBtcAddress: unique symbol;
 }
 

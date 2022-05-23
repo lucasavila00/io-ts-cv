@@ -4,7 +4,7 @@ import type ValidatorJS from "validator";
 import { nameFromCtx } from "../utils/ctx";
 import isMobilePhoneValidator from "validator/lib/isMobilePhone";
 
-interface IsMobilePhoneBrand {
+export interface IsMobilePhoneBrand {
   readonly IsMobilePhone: unique symbol;
 }
 /**

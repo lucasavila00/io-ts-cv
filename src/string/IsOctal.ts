@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isOctalValidator from "validator/lib/isOctal";
 
-interface IsOctalBrand {
+export interface IsOctalBrand {
   readonly IsOctal: unique symbol;
 }
 

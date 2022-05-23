@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isMongoIdValidator from "validator/lib/isMongoId";
 
-interface IsMongoIdBrand {
+export interface IsMongoIdBrand {
   readonly IsMongoId: unique symbol;
 }
 

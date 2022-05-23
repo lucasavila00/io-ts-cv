@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isMagnetURIValidator from "validator/lib/isMagnetURI";
 
-interface IsMagnetURIBrand {
+export interface IsMagnetURIBrand {
   readonly IsMagnetURI: unique symbol;
 }
 

@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isSurrogatePairValidator from "validator/lib/isSurrogatePair";
 
-interface IsSurrogatePairBrand {
+export interface IsSurrogatePairBrand {
   readonly IsSurrogatePair: unique symbol;
 }
 

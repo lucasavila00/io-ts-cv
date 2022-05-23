@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isHSLValidator from "validator/lib/isHSL";
 
-interface IsHSLBrand {
+export interface IsHSLBrand {
   readonly IsHSL: unique symbol;
 }
 

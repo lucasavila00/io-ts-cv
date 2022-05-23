@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isIsinValidator from "validator/lib/isISIN";
 
-interface IsISINBrand {
+export interface IsISINBrand {
   readonly IsISIN: unique symbol;
 }
 

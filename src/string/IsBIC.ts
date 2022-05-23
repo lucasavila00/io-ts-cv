@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import isBICValidator from "validator/lib/isBIC";
 import { nameFromCtx } from "../utils/ctx";
 
-interface IsBICBrand {
+export interface IsBICBrand {
   readonly IsBIC: unique symbol;
 }
 

@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isUppercaseValidator from "validator/lib/isUppercase";
 
-interface IsUppercaseBrand {
+export interface IsUppercaseBrand {
   readonly IsUppercase: unique symbol;
 }
 

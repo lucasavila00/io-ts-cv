@@ -4,7 +4,7 @@ import type ValidatorJS from "validator";
 import { nameFromCtx } from "../utils/ctx";
 import isFqdnValidator from "validator/lib/isFQDN";
 
-interface IsFQDNBrand {
+export interface IsFQDNBrand {
   readonly IsFQDN: unique symbol;
 }
 

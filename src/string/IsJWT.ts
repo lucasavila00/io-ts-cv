@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isJwtValidator from "validator/lib/isJWT";
 
-interface IsJWTBrand {
+export interface IsJWTBrand {
   readonly IsJWT: unique symbol;
 }
 

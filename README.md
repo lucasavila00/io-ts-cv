@@ -122,7 +122,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "io-ts-cv/utils/ctx";
 import isEmailValidator from "validator/lib/isEmail";
 
-interface MyIsEmailBrand {
+export interface MyIsEmailBrand {
   readonly MyIsEmail: unique symbol;
 }
 

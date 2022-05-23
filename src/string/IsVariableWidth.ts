@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isVariableWidthValidator from "validator/lib/isVariableWidth";
 
-interface IsVariableWidthBrand {
+export interface IsVariableWidthBrand {
   readonly IsVariableWidth: unique symbol;
 }
 

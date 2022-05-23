@@ -4,7 +4,7 @@ import type ValidatorJS from "validator";
 import { nameFromCtx } from "../utils/ctx";
 import isISSNValidator from "validator/lib/isISSN";
 
-interface IsISSNBrand {
+export interface IsISSNBrand {
   readonly IsISSN: unique symbol;
 }
 /**

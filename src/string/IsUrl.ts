@@ -4,7 +4,7 @@ import type ValidatorJS from "validator";
 import { nameFromCtx } from "../utils/ctx";
 import isUrlValidator from "validator/lib/isURL";
 
-interface IsUrlBrand {
+export interface IsUrlBrand {
   readonly IsUrl: unique symbol;
 }
 /**

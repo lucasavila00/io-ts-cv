@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isEANValidator from "validator/lib/isEAN";
 
-interface IsEANBrand {
+export interface IsEANBrand {
   readonly IsEAN: unique symbol;
 }
 

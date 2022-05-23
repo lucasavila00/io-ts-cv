@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import isLatLongValidator from "validator/lib/isLatLong";
 import { nameFromCtx } from "../utils/ctx";
 
-interface IsLatLongBrand {
+export interface IsLatLongBrand {
   readonly IsLatLong: unique symbol;
 }
 

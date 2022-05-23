@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import isAsciiValidator from "validator/lib/isAscii";
 import { nameFromCtx } from "../utils/ctx";
 
-interface IsAsciiBrand {
+export interface IsAsciiBrand {
   readonly IsAscii: unique symbol;
 }
 

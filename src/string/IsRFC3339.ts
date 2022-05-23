@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isRFC3339Validator from "validator/lib/isRFC3339";
 
-interface IsRFC3339Brand {
+export interface IsRFC3339Brand {
   readonly IsRFC3339: unique symbol;
 }
 

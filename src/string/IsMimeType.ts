@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isMimeTypeValidator from "validator/lib/isMimeType";
 
-interface IsMimeTypeBrand {
+export interface IsMimeTypeBrand {
   readonly IsMimeType: unique symbol;
 }
 

@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isMultibyteValidator from "validator/lib/isMultibyte";
 
-interface IsMultibyteBrand {
+export interface IsMultibyteBrand {
   readonly IsMultibyte: unique symbol;
 }
 

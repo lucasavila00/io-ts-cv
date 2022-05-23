@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isDataURIValidator from "validator/lib/isDataURI";
 
-interface IsDataURIBrand {
+export interface IsDataURIBrand {
   readonly IsDataURI: unique symbol;
 }
 
