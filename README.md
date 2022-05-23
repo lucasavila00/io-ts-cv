@@ -8,6 +8,38 @@ Install from NPM:
 npm i io-ts-cv
 ```
 
+# Using
+
+```ts
+import * as t from "io-ts";
+import { IsUUID } from "io-ts-cv";
+// or import { IsUUID } from "io-ts-cv/lib/string/IsUUID";
+// or import { IsUUID } from "io-ts-cv/es6/string/IsUUID";
+
+const myType = t.type({
+  uuid: IsUUID(4),
+});
+
+console.log(myType.decode({ uuid: "02c22109-4c40-42b1-9867-84bd010cdae0" }));
+// {
+//     _tag: 'Right',
+//     right: { uuid: '02c22109-4c40-42b1-9867-84bd010cdae0' }
+// }
+
+console.log(myType.decode({ uuid: "abc" }));
+// {
+//     _tag: 'Left',
+//     left: [
+//         {
+//         value: 'abc',
+//         context: [Array],
+//         message: 'uuid must be a UUID',
+//         actual: 'abc'
+//         }
+//     ]
+// }
+```
+
 # Codecs
 
 | Codec                                          | Description                                                                                                                                                                                           |
@@ -125,8 +157,8 @@ For example, an IsEmail codec:
 ```ts
 import * as t from "io-ts";
 import { withMessage } from "io-ts-types/lib/withMessage";
-import { nameFromCtx } from "io-ts-cv/utils/ctx";
 import isEmailValidator from "validator/lib/isEmail";
+import { nameFromCtx } from "io-ts-cv";
 
 export interface MyIsEmailBrand {
   readonly MyIsEmail: unique symbol;
