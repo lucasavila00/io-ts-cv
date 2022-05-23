@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import isBooleanValidator from "validator/lib/isBoolean";
 import { nameFromCtx } from "../utils/ctx";
 
-interface IsBooleanStringBrand {
+export interface IsBooleanStringBrand {
   readonly IsBooleanString: unique symbol;
 }
 

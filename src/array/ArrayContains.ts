@@ -2,7 +2,7 @@ import * as t from "io-ts";
 import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 
-interface ArrayContainsBrand {
+export interface ArrayContainsBrand {
   readonly ArrayContains: unique symbol;
 }
 

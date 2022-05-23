@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isPortValidator from "validator/lib/isPort";
 
-interface IsPortBrand {
+export interface IsPortBrand {
   readonly IsPort: unique symbol;
 }
 

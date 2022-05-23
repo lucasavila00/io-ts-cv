@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import isBase32Validator from "validator/lib/isBase32";
 import { nameFromCtx } from "../utils/ctx";
 
-interface IsBase32Brand {
+export interface IsBase32Brand {
   readonly IsBase32: unique symbol;
 }
 

@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isSemVerValidator from "validator/lib/isSemVer";
 
-interface IsSemVerBrand {
+export interface IsSemVerBrand {
   readonly IsSemVer: unique symbol;
 }
 

@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import isBase64Validator from "validator/lib/isBase64";
 import { nameFromCtx } from "../utils/ctx";
 
-interface IsBase64Brand {
+export interface IsBase64Brand {
   readonly IsBase64: unique symbol;
 }
 

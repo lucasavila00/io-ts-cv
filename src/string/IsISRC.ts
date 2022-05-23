@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isISRCValidator from "validator/lib/isISRC";
 
-interface IsISRCBrand {
+export interface IsISRCBrand {
   readonly IsISRC: unique symbol;
 }
 

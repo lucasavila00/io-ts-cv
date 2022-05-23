@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import matchesValidator from "validator/lib/matches";
 
-interface IsMilitaryTimeBrand {
+export interface IsMilitaryTimeBrand {
   readonly IsMilitaryTime: unique symbol;
 }
 

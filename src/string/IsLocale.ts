@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isLocaleValidator from "validator/lib/isLocale";
 
-interface IsLocaleBrand {
+export interface IsLocaleBrand {
   readonly IsLocale: unique symbol;
 }
 

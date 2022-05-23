@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isJSONValidator from "validator/lib/isJSON";
 
-interface IsJSONBrand {
+export interface IsJSONBrand {
   readonly IsJSON: unique symbol;
 }
 

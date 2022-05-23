@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isEthereumAddressValidator from "validator/lib/isEthereumAddress";
 
-interface IsEthereumAddressBrand {
+export interface IsEthereumAddressBrand {
   readonly IsEthereumAddress: unique symbol;
 }
 

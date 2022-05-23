@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isIBANValidator from "validator/lib/isIBAN";
 
-interface IsIBANBrand {
+export interface IsIBANBrand {
   readonly IsIBAN: unique symbol;
 }
 

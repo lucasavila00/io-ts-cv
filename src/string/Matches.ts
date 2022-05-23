@@ -9,7 +9,7 @@ const matches = (
   modifiers?: string
 ): boolean => matchesValidator(value, pattern as unknown as any, modifiers);
 
-interface MatchesBrand {
+export interface MatchesBrand {
   readonly Matches: unique symbol;
 }
 

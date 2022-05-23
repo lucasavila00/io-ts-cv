@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isCreditCardValidator from "validator/lib/isCreditCard";
 
-interface IsCreditCardBrand {
+export interface IsCreditCardBrand {
   readonly IsCreditCard: unique symbol;
 }
 

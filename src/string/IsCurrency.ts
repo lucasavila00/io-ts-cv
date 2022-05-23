@@ -4,7 +4,7 @@ import type ValidatorJS from "validator";
 import { nameFromCtx } from "../utils/ctx";
 import isCurrencyValidator from "validator/lib/isCurrency";
 
-interface IsCurrencyBrand {
+export interface IsCurrencyBrand {
   readonly IsCurrency: unique symbol;
 }
 /**

@@ -4,7 +4,7 @@ import type ValidatorJS from "validator";
 import { nameFromCtx } from "../utils/ctx";
 import isEmailValidator from "validator/lib/isEmail";
 
-interface IsEmailBrand {
+export interface IsEmailBrand {
   readonly IsEmail: unique symbol;
 }
 

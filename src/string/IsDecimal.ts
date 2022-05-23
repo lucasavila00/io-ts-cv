@@ -4,7 +4,7 @@ import type ValidatorJS from "validator";
 import { nameFromCtx } from "../utils/ctx";
 import isDecimalValidator from "validator/lib/isDecimal";
 
-interface IsDecimalBrand {
+export interface IsDecimalBrand {
   readonly IsDecimal: unique symbol;
 }
 /**

@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isHalfWidthValidator from "validator/lib/isHalfWidth";
 
-interface IsHalfWidthBrand {
+export interface IsHalfWidthBrand {
   readonly IsHalfWidth: unique symbol;
 }
 

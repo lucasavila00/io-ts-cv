@@ -2,7 +2,7 @@ import * as t from "io-ts";
 import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 
-interface IsEmptyBrand {
+export interface IsEmptyBrand {
   readonly IsEmpty: unique symbol;
 }
 

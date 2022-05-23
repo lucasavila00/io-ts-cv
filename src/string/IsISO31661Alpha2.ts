@@ -3,7 +3,7 @@ import { withMessage } from "io-ts-types/lib/withMessage";
 import { nameFromCtx } from "../utils/ctx";
 import isISO31661Alpha2Validator from "validator/lib/isISO31661Alpha2";
 
-interface IsISO31661Alpha2Brand {
+export interface IsISO31661Alpha2Brand {
   readonly IsISO31661Alpha2: unique symbol;
 }
 
