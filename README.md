@@ -1,6 +1,6 @@
 # io-ts-cv
 
-One-to-one reimplementation of [class-validator's](https://github.com/typestack/class-validator) validators in io-ts ecosystem.
+One-to-one reimplementation of [class-validator's](https://github.com/typestack/class-validator) validators in io-ts ecosystem as branded types.
 
 Install from NPM:
 
@@ -37,6 +37,11 @@ console.log(myType.decode({ uuid: "abc" }));
 //         actual: 'abc'
 //         }
 //     ]
+// }
+
+type TheType = t.TypeOf<typeof myType>;
+// type TheType = {
+//     uuid: t.Branded<string, IsUUIDBrand<4>>;
 // }
 ```
 
