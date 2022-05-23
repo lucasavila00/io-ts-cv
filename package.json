@@ -1,6 +1,6 @@
 {
   "name": "io-ts-cv",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "One-to-one reimplementation of class-validator's validators in io-ts ecosystem.",
   "main": "lib/index.js",
   "module": "es6/index.js",
