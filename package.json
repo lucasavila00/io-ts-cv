@@ -14,8 +14,16 @@
     "prepublishOnly": "ts-node scripts/pre-publish",
     "release": "ts-node scripts/release"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasavila00/io-ts-cv.git"
+  },
+  "keywords": [
+    "io-ts",
+    "fp-ts",
+    "class-validator"
+  ],
+  "author": "Lucas Ávila",
   "license": "ISC",
   "dependencies": {
     "io-ts": "^2.2.16",
