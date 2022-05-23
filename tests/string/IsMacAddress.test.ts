@@ -16,8 +16,8 @@ describe("IsMacAddress", () => {
     const codec1 = IsMacAddress(true);
     const codec2 = IsMacAddress(false);
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

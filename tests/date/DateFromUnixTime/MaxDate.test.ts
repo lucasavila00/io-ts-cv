@@ -8,8 +8,8 @@ describe("DateFromUnixTimeMaxDate", () => {
     const codec1 = DateFromUnixTimeMaxDate(123);
     const codec2 = DateFromUnixTimeMaxDate(124);
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

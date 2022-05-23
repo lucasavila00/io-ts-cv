@@ -8,8 +8,8 @@ describe("DateFromISOStringMinDate", () => {
     const codec1 = DateFromISOStringMinDate("2022-05-22T17:07:07.787Z");
     const codec2 = DateFromISOStringMinDate("2021-05-22T17:07:07.787Z");
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

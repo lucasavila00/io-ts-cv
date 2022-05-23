@@ -8,8 +8,8 @@ describe("IsUUID", () => {
     const codec1 = IsUUID("4");
     const codec2 = IsUUID("5");
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

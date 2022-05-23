@@ -8,8 +8,8 @@ describe("IsPostalCode", () => {
     const codec1 = IsPostalCode("BR");
     const codec2 = IsPostalCode("US");
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

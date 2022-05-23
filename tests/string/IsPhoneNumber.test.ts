@@ -17,8 +17,8 @@ describe("IsPhoneNumber", () => {
     const codec1 = IsPhoneNumber("US");
     const codec2 = IsPhoneNumber("BR");
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

@@ -8,8 +8,8 @@ describe("IsDivisibleBy", () => {
     const codec1 = IsDivisibleBy(1);
     const codec2 = IsDivisibleBy(2);
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

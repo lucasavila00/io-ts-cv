@@ -8,8 +8,8 @@ describe("IsISBN", () => {
     const codec1 = IsISBN("10");
     const codec2 = IsISBN("13");
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

@@ -8,8 +8,8 @@ describe("DateFromNumberMaxDate", () => {
     const codec1 = DateFromNumberMaxDate(123_000);
     const codec2 = DateFromNumberMaxDate(124_000);
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;

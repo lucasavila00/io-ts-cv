@@ -16,8 +16,8 @@ describe("IsAlpha", () => {
     const codec1 = IsAlphanumeric("en-US");
     const codec2 = IsAlphanumeric("pt-BR");
 
-    let a: t.TypeOf<typeof codec1>;
-    let b: t.TypeOf<typeof codec2>;
+    let a: t.TypeOf<typeof codec1> = null as any;
+    let b: t.TypeOf<typeof codec2> = null as any;
 
     //@ts-expect-error
     a = b;
