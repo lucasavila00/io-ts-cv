@@ -163,7 +163,7 @@ For example, an IsEmail codec:
 import * as t from "io-ts";
 import { withMessage } from "io-ts-types/lib/withMessage";
 import isEmailValidator from "validator/lib/isEmail";
-import { nameFromCtx } from "io-ts-cv";
+import { nameFromCtx } from "io-ts-cv/lib/utils/ctx";
 
 export interface MyIsEmailBrand {
   readonly MyIsEmail: unique symbol;
